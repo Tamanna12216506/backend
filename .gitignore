@@ -1,0 +1,4 @@
+# Node.js backend
+node_modules/
+.env
+
