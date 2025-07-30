@@ -69,6 +69,10 @@ app.use('/api/questions', questionRoutes);
 app.use('/api/performance', performanceRoutes);
 app.use('/api/code', codeRoutes);
 
+app.get("/api/auth/test", (req, res) => {
+  res.json({ message: "Auth route working" });
+});
+
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'OK', timestamp: new Date().toISOString() });
