@@ -2,9 +2,9 @@
   "name": "interviewpep-backend",
   "version": "1.0.0",
   "description": "Backend for InterviewPep coding interview preparation app",
-  "main": "dist/api/server.js",
+  "main": "dist/server.js",
   "scripts": {
-    "start": "node dist/api/server.js",
+    "start": "node dist/server.js",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
     "postinstall": "npm run build",
